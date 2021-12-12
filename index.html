@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Simply Dev</title>
+        <link rel="shortcut icon" type="image/jpg" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👁‍🗨</text></svg>">
+        <!--Style sheet-->
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+    <body>
+    <!--------------------------JS File------------------------------->
+    <script src="script.js"></script>
+
+    <!--------------------------JQuery File------------------------------->
+    <script src="js/jqueryv3.6.0.min.js"></script>
+
+
+    <!---------------------------Navigation--------------------------->
+    <div class="container">
+        <div class="navbar">
+            <a id="titl"  href="index.html"><pre>Simply Dev</pre></a>
+            <nav role="navigation" aria-label="main menu">
+            <ul id="menuList">
+                <li><a href="newsletter.html">NEWSLETTER</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="about.html">🔍</a></li>
+             </ul>
+            </nav>
+            <svg onclick="togglemenu()" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 5.75H19.25"/>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 18.25H19.25"/>
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 12H19.25"/>
+              </svg>
+              
+        </div>
+    </div>
+    <!---------------------------Navigation--------------------------->
+
+
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+
+
+    <script>
+    //Button Function
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⬆</button>
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+   
+<!--------------------Main Section daw-------------------------->
+    <div class="blog-post">
+      <div class="blog-post-img">
+        <a href="#" class="pp"><pre>Popular Post</pre></a>
+
+        <img src="imgs\dogsncode.png" alt="">
+      </div>
+      <div class="blog-post-info">
+        <div class="blog-post-date">
+          <span>Manasa Jayasri</span>
+          <span>On December 8 2021</span>
+        </div>
+        <h1 class="blog-post-title">The heading bitch</h1>
+        <p class="blog-post-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam sed, velit debitis doloribus ex, reprehenderit repellat libero ullam accusantium tenetur repudiandae omnis iure voluptatem mollitia dolor minima expedita, temporibus alias! Ea eaque commodi impedit sapiente voluptatem neque cum nam.
+        </p>
+        <a href="#" class="blog-post-cta">Read More</a>
+      </div>
+    </div>
+
+    <br> <br> <br> <br>
+
+<!-------------------------Blog Section----------------------------->
+<div class="blog-carosel-main">
+  
+<div class="blog-carosel-post">
+  <div class="blog-carosel-post-img">
+    <img src="imgs\dogsncode.png" alt="">
+  </div>
+  <div class="blog-carosel-post-info">
+    <div class="blog-carosel-post-date">
+      <span>Manasa Jayasri</span>
+      <span>On December 8 2021</span>
+    </div>
+    <h1 class="blog-carosel-post-title">The heading bitch</h1>
+    <p class="blog-carosel-post-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam sed, velit debitis doloribus ex, reprehenderit repellat libero ullam accusantium tenetur repudiandae omnis iure voluptatem mollitia dolor minima expedita, temporibus alias!
+    </p>
+    <a href="#" class="blog-carosel-post-cta">Read More</a>
+  </div>
+</div>
+
+
+<div class="blog-carosel-post">
+  <div class="blog-carosel-post-img">
+    <img src="imgs\dogsncode.png" alt="">
+  </div>
+  <div class="blog-carosel-post-info">
+    <div class="blog-carosel-post-date">
+      <span>Manasa Jayasri</span>
+      <span>On December 8 2021</span>
+    </div>
+    <h1 class="blog-carosel-post-title">The heading bitch</h1>
+    <p class="blog-carosel-post-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam sed, velit debitis doloribus ex, reprehenderit repellat libero ullam accusantium tenetur repudiandae omnis iure voluptatem mollitia dolor minima expedita, temporibus alias!
+    </p>
+    <a href="#" class="blog-carosel-post-cta">Read More</a>
+  </div>
+</div>
+
+</div>
+
+<br>
+
+<div class="blog-carosel-main">
+
+<div class="blog-carosel-post">
+  <div class="blog-carosel-post-img">
+    <img src="imgs\dogsncode.png" alt="">
+  </div>
+  <div class="blog-carosel-post-info">
+    <div class="blog-carosel-post-date">
+      <span>Manasa Jayasri</span>
+      <span>On December 8 2021</span>
+    </div>
+    <h1 class="blog-carosel-post-title">The heading bitch</h1>
+    <p class="blog-carosel-post-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam sed, velit debitis doloribus ex, reprehenderit repellat libero ullam accusantium tenetur repudiandae omnis iure voluptatem mollitia dolor minima expedita, temporibus alias!
+    </p>
+    <a href="#" class="blog-carosel-post-cta">Read More</a>
+  </div>
+</div>
+
+<div class="blog-carosel-post">
+  <div class="blog-carosel-post-img">
+    <img src="imgs\dogsncode.png" alt="">
+  </div>
+  <div class="blog-carosel-post-info">
+    <div class="blog-carosel-post-date">
+      <span>Manasa Jayasri</span>
+      <span>On December 8 2021</span>
+    </div>
+    <h1 class="blog-carosel-post-title">The heading bitch</h1>
+    <p class="blog-carosel-post-text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam sed, velit debitis doloribus ex, reprehenderit repellat libero ullam accusantium tenetur repudiandae omnis iure voluptatem mollitia dolor minima expedita, temporibus alias!
+    </p>
+    <a href="#" class="blog-carosel-post-cta">Read More</a>
+  </div>
+</div>
+
+</div>
+<br>
+
+<div class="blog-carosel-main">
+
+  <div class="blog-carosel-post">
+    <div class="blog-carosel-post-img">
+      <img src="imgs\dogsncode.png" alt="">
+    </div>
+    <div class="blog-carosel-post-info">
+      <div class="blog-carosel-post-date">
+        <span>Manasa Jayasri</span>
+        <span>On December 8 2021</span>
+      </div>
+      <h1 class="blog-carosel-post-title">The heading bitch</h1>
+      <p class="blog-carosel-post-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam sed, velit debitis doloribus ex, reprehenderit repellat libero ullam accusantium tenetur repudiandae omnis iure voluptatem mollitia dolor minima expedita, temporibus alias!
+      </p>
+      <a href="#" class="blog-carosel-post-cta">Read More</a>
+    </div>
+  </div>
+  
+  <div class="blog-carosel-post">
+    <div class="blog-carosel-post-img">
+      <img src="imgs\dogsncode.png" alt="">
+    </div>
+    <div class="blog-carosel-post-info">
+      <div class="blog-carosel-post-date">
+        <span>Manasa Jayasri</span>
+        <span>On December 8 2021</span>
+      </div>
+      <h1 class="blog-carosel-post-title">The heading bitch</h1>
+      <p class="blog-carosel-post-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam sed, velit debitis doloribus ex, reprehenderit repellat libero ullam accusantium tenetur repudiandae omnis iure voluptatem mollitia dolor minima expedita, temporibus alias!
+      </p>
+      <a href="#" class="blog-carosel-post-cta">Read More</a>
+    </div>
+  </div>
+  
+  </div>
+  <br>
+
+  <div class="blog-carosel-main">
+
+    <div class="blog-carosel-post">
+      <div class="blog-carosel-post-img">
+        <img src="imgs\dogsncode.png" alt="">
+      </div>
+      <div class="blog-carosel-post-info">
+        <div class="blog-carosel-post-date">
+          <span>Manasa Jayasri</span>
+          <span>On December 8 2021</span>
+        </div>
+        <h1 class="blog-carosel-post-title">The heading bitch</h1>
+        <p class="blog-carosel-post-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam sed, velit debitis doloribus ex, reprehenderit repellat libero ullam accusantium tenetur repudiandae omnis iure voluptatem mollitia dolor minima expedita, temporibus alias!
+        </p>
+        <a href="#" class="blog-carosel-post-cta">Read More</a>
+      </div>
+    </div>
+    
+    <div class="blog-carosel-post">
+      <div class="blog-carosel-post-img">
+        <img src="imgs\dogsncode.png" alt="">
+      </div>
+      <div class="blog-carosel-post-info">
+        <div class="blog-carosel-post-date">
+          <span>Manasa Jayasri</span>
+          <span>On December 8 2021</span>
+        </div>
+        <h1 class="blog-carosel-post-title">The heading bitch</h1>
+        <p class="blog-carosel-post-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam sed, velit debitis doloribus ex, reprehenderit repellat libero ullam accusantium tenetur repudiandae omnis iure voluptatem mollitia dolor minima expedita, temporibus alias!
+        </p>
+        <a href="#" class="blog-carosel-post-cta">Read More</a>
+      </div>
+    </div>
+    
+    </div>
+
+    <!--<a href="#" class="archives"><pre>Dust more from the archives</pre></a>-->
+<!-------------------------Blog Section----------------------------->
+
+    <br><br><br>
+    <div class="blog-post">
+
+      <div class="blog-post-img">
+        <a href="#" class="pp"><pre>Popular Post</pre></a>
+
+        <img src="imgs\dogsncode.png" alt="">
+      </div>
+   
+      <div class="blog-post-info">
+        <div class="blog-post-date">
+          <span>Manasa Jayasri</span>
+          <span>On December 8 2021</span>
+        </div>
+        <h1 class="blog-post-title">The heading bitch</h1>
+        <p class="blog-post-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam sed, velit debitis doloribus ex, reprehenderit repellat libero ullam accusantium tenetur repudiandae omnis iure voluptatem mollitia dolor minima expedita, temporibus alias! Ea eaque commodi impedit sapiente voluptatem neque cum nam.
+        </p>
+        <a href="#" class="blog-post-cta">Read More</a>
+      </div>
+    </div>
+
+    <br><br><br>
+
+<!--------------------Main Section daw-------------------------->
+<!--------------------Footer------------------------------------>
+
+<footer>
+  <div class="content">
+
+    
+    <a id="titl"  href="index.html"><pre>Simply Dev</pre></a>
+    <div class="right box">
+      <div class="topic">Subscribe To Our Newsletter</div>
+      <form action="#">
+        <input type="text" placeholder="Enter email address">
+        <input type="submit" name="" value="Send">
+      
+      </form>
+    </div>
+  </div>
+  <div class="bottom">
+    <p style="font-style: helvetica; font-size: 0.8rem; text-align: center; margin-top: 12rem;">Copyright © 2021 <a style="font-family: helvetica; text-decoration: none; color: #000; font-weight: bold;" href="#">Simply Dev</a> All rights reserved</p>
+  </div>
+</footer>
+
+<!--------------------Footer------------------------------------>
+
+    </body>
+</html>
